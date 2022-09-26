@@ -40,4 +40,15 @@ body {
 
   ul, ol{
     border-style: dotted;
+    background-color: D2F3D1;
+}
+
+a:hover {
+  background-color: #04AA6D;
+}
+a:active {
+  background-color: #333;;
+}
+a:visited {
+  background-color: rgb(65, 87, 80);
 }
