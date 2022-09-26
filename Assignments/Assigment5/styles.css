@@ -9,14 +9,19 @@ body {
     );
   }
 
+  .lofibeats{
+    border-left: 6px solid green;
+    height: 500px;
+  }
+
   a:hover {
     background-color: rgb(212, 161, 225);
   }
   a:active {
-    background-color: rgb(230, 131, 255);
+    background-color: rgb(165, 28, 200);
   }
   a:visited {
-    background-color: rgb(238, 187, 250);
+    background-color: rgb(230, 131, 255);
   }
 
   button:hover {
