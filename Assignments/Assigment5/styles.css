@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    background: repeating-linear-gradient(
+      to bottom,
+      #d89ee6 5px,
+      #6d3795 5px,
+      #e4cfe6 5px,
+      #e1bfe1 30px
+    );
+  }
+
+  a:hover {
+    background-color: rgb(212, 161, 225);
+  }
+  a:active {
+    background-color: rgb(230, 131, 255);
+  }
+  a:visited {
+    background-color: rgb(238, 187, 250);
+  }
+
+  button:hover {
+    background-color: rgb(212, 161, 225);
+  }
+  button:active {
+    background-color: rgb(230, 131, 255);
+  }
+
+
+  ul{
+    border-style: dotted;
+}
+
+  ol{
+    border-style: double;
+}
