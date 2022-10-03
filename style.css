@@ -24,16 +24,16 @@
 
   @media (orientation: landscape) {
     body{ 
-      min-width: 1900px;
-      min-height: 1100px;
+      width: 1900px;
+      height: 1100px;
       background-color: #e6ffe6;
   }
 }
   
   @media (orientation: portrait) {
     body{ 
-      min-height: 400px;
-      min-width: 700px;
+      height: 700px;
+      width: 400px;
       background-color: #e6ffe6;
   }
 }
