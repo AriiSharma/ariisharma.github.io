@@ -23,7 +23,7 @@
 }
 
   @media (orientation: landscape) {
-    body{ 
+    html{ 
       width: 1900px;
       height: 1100px;
       background-color: #e6ffe6;
@@ -31,7 +31,7 @@
 }
   
   @media (orientation: portrait) {
-    body{ 
+    html{ 
       height: 700px;
       width: 400px;
       background-color: #e6ffe6;
