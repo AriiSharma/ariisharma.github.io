@@ -22,8 +22,9 @@
   color: white;
 }
 
-body {
-    background: #e6ffe6;
+  @media (min-width: 1000px) and (orientation: landscape) {
+    body{ 
+      background-color: #e6ffe6}
   }
   
   .content {
@@ -31,11 +32,6 @@ body {
     margin: auto;
     background: white;
     padding: 20px;
-  }
-
-  .img{
-    max-width:200px;
-    max-height:200px;
   }
 
   ul, ol{
@@ -53,4 +49,19 @@ a:visited {
 
 a:active {
   color:   #2fb181;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #c9e6d6;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
