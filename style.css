@@ -19,6 +19,9 @@
 
 img, .a {
   object-fit:cover;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 
 .navigation a.active {
