@@ -22,11 +22,22 @@
   color: white;
 }
 
-  @media (min-width: 1000px) and (orientation: landscape) {
+  @media (orientation: landscape) {
     body{ 
-      background-color: #e6ffe6}
+      min-width: 1900px;
+      min-height: 1100px;
+      background-color: #e6ffe6;
   }
+}
   
+  @media (orientation: portrait) {
+    body{ 
+      min-height: 400px;
+      min-width: 700px;
+      background-color: #e6ffe6;
+  }
+}
+
   .content {
     max-width: 800px;
     margin: auto;
