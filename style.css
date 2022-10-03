@@ -85,3 +85,8 @@ a:active {
   font-size: 30px;
   text-align: center;
 }
+
+iframe {
+  display:block;
+  width:100%;
+}
