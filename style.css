@@ -27,7 +27,7 @@ img, .a {
 }
 
   @media (orientation: landscape) {
-    html{ 
+    body{ 
       width: 1900px;
       height: 1100px;
       background-color: #e6ffe6;
@@ -35,7 +35,7 @@ img, .a {
 }
   
   @media (orientation: portrait) {
-    html{ 
+    body{ 
       height: 700px;
       width: 400px;
       background-color: #e6ffe6;
