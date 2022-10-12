@@ -18,9 +18,14 @@
   color: black;
 }
 
-img {
+.aboutmee img, .row img {
   object-fit:cover;
+  width: auto ;
+  max-width: 100% ;
+  height: auto;
 }
+
+
 
 .navigation a.active {
   background-color: #333;
@@ -132,6 +137,7 @@ iframe {
   background-color: rgb(255, 255, 255);
   object-fit: cover;
   height: 100%;
+  width: auto;
   padding: 10px;
 }
 
