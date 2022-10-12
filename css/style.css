@@ -20,9 +20,6 @@
 
 img {
   object-fit:cover;
-  width: auto ;
-  max-width: 100% ;
-  height: auto;
 }
 
 .navigation a.active {
@@ -36,6 +33,7 @@ body{
   background-size:     cover;                 
   background-repeat:   no-repeat;
   background-position: center center;   
+  font-family: "Times New Roman", Times, serif;
 }
 
   @media (orientation: landscape) {
@@ -62,7 +60,6 @@ body{
     margin: auto;
     overflow-x: hidden;
     overflow-y: auto;
-    font-family: "Times New Roman", Times, serif;
   }
 
   ul{
@@ -97,6 +94,7 @@ a:active {
   grid-template-columns: auto auto;
   padding: 10px;
   grid-gap: 30px;
+
 }
 
 .grid-item {
@@ -113,6 +111,7 @@ a:active {
   grid-template-columns: auto auto;
   padding: 10px;
   grid-gap: 20px;
+  object-fit:cover;
 }
 
 .project-grid-item {
