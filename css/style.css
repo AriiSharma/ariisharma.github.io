@@ -53,15 +53,22 @@ body{
 }
 
   .content {
-    max-width: 800px;
+    height: 950px;
+    width: 50%;
     background: white;
     padding: 20px;
     margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   ul, ol{
     border-style: dotted;
     background-color: D2F3D1;
+}
+
+a{
+  text-decoration: none;
 }
 
 a:hover {
@@ -113,11 +120,6 @@ iframe {
   width:100%;
 }
 
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
 .blogimg {
   background-color: rgb(255, 255, 255);
   object-fit: cover;
@@ -129,15 +131,8 @@ iframe {
 .card {
   padding: 20px;
   margin-top: 20px;
-  background-color: rgb(236, 255, 243);
+  background-color: #D2F3D1;
   object-fit: cover;
-}
-
-@media screen and (max-width: 800px) {
-  .leftcolumn {   
-    width: 100%;
-    padding: 0;
-  }
 }
 
 Footer
