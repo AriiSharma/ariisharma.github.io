@@ -95,7 +95,7 @@ a:active {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
-  grid-gap: 30px
+  grid-gap: 30px;
 }
 
 .grid-item {
@@ -104,6 +104,7 @@ a:active {
   padding: 10px;
   font-size: 30px;
   text-align: center;
+  object-fit:cover;
 }
 
 .project-grid-container {
@@ -119,6 +120,7 @@ a:active {
   padding: 10px;
   font-size: 30px;
   text-align: center;
+  object-fit:cover;
 }
 
 iframe {
