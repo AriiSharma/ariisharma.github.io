@@ -33,6 +33,9 @@ img {
 body{
   height: 100vh;
   background-image: url("/img/forest.jpg");
+  background-size:     cover;                 
+  background-repeat:   no-repeat;
+  background-position: center center;   
 }
 
   @media (orientation: landscape) {
