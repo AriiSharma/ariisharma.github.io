@@ -61,7 +61,7 @@ body{
     background-color: #EEF2EC;
     padding: 20px;
     margin: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
   }
 
