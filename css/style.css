@@ -26,20 +26,19 @@ img {
 }
 
 .navigation a.active {
-  background-color: #333;;
+  background-color: #333;
   color: white;
 }
 
 body{
   height: 100vh;
-  background-color: #ffffff;
+  background-image: url("/img/forest.jpg");
 }
 
   @media (orientation: landscape) {
     body{ 
       width: 1900px;
       height: 1100px;
-      background-color: #e6ffe6;
       align-items: center;
   }
 }
@@ -48,7 +47,6 @@ body{
     body{ 
       height: 700px;
       width: 400px;
-      background-color: #e6ffe6;
       align-items: center;
   }
 }
@@ -56,7 +54,7 @@ body{
   .content {
     height: 950px;
     width: 50%;
-    background: white;
+    background-color: #EEF2EC;
     padding: 20px;
     margin: auto;
     overflow-x: hidden;
@@ -108,7 +106,6 @@ a:active {
 .project-grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #D2F3D1;
   padding: 10px;
   grid-gap: 20px;
 }
