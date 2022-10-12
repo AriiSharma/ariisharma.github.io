@@ -48,7 +48,7 @@ body{
   
   @media (orientation: portrait) {
     body{ 
-      height: 700px;
+      height: 100%;
       width: 400px;
       align-items: center;
   }
