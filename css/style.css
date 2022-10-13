@@ -144,6 +144,35 @@ iframe {
   object-fit: cover;
 }
 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
+.wrapper{
+  position: relative;
+  top: 40vh;
+}
+#button{
+  border: 5px solid #000000;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  margin: auto;
+  background: #D2F3D1;
+}
+
+#button:hover{
+  background: #ffffff;
+}
+
+#message{
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.reveal{
+  visibility: visible;
+}
+

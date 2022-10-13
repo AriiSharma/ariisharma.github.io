@@ -22,35 +22,15 @@ let btn = document.getElementById("btn");
         author.innerText = item.author;
      });
  };
+ 
 //Activate the calculation at page load(onload)
  window.addEventListener("load", getQuote);
 //active the button 
  btn.addEventListener("click", getQuote);
 
- HTML CSS JSResult Skip Results Iframe
-EDIT ON
-const background = document.getElementById("background");
+ let button = document.querySelector('#button');
+let msg = document.querySelector('#message');
 
-const getRandomNumber = (limit) => {
-  return Math.floor(Math.random() * limit);
-};
-
-const getRandomColor = () => {
-  const h = getRandomNumber(360);
-  const s = getRandomNumber(100);
-  const l = getRandomNumber(100);
-
-  return `hsl(${h}deg, ${s}%, ${l}%)`;
-};
-
-const setBackgroundColor = () => {
-  const randomColor = getRandomColor();
-  background.style.backgroundColor = randomColor;
-  background.style.color = randomColor;
-};
-
-setBackgroundColor();
-
-setInterval(() => {
-  setBackgroundColor();
-}, 1500);
+button.addEventListener('click', ()=>{
+  msg.classList.toggle('reveal');
+})

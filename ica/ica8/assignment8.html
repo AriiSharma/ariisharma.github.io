@@ -1,31 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../../css/style.css" type="text/css"/>
 
     <title>Document</title>
 </head>
 <body>
     <main id="background"> 
-        <h2> Refresh the page to change the color </h2>
-    <div class="boostrap">
+      <div class="container">
         <!-- heading -->
           <h2>Random Quote Generator</h2>
-        
-          <div class="container">
         <!-- result box -->
-            <div class="display">
-              <p id="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,magni.</p>
-              <h3 id="author">Lorem, ipsum.</h3>
+        <div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p id="quote">Here are some cool quotes</p>
+              <h3 id="author">By famous people.</h3>
             </div>
+          </div>
         <!-- generate button -->
             <button id="btn">Get Quote</button>
-        
           </div>
-        </div>
+         <div class="card" style="width: 18rem;">
+            <div id="message" class="hide">
+              Thanks for reading the cool quotes. Click again to hide me!
+            </div>
+            <div id="button">
+              Click me!
+            </div>
+          </div>
+
+      </div>`
 
     <script src="../../js/ica8.js"> </script>
 </body>
